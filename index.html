@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Include Tailwind CSS from CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- Google Fonnt -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <script src="js/index.js" defer></script>
+</head>
+
+<body>
+    <div class="snap-y snap-mandatory h-screen overflow-scroll" id="portfolio-scroll">
+        <section id="presentation" style="background: linear-gradient(to right, #a1c4fd, #c2e9fb);"
+            class="snap-center bg-amber-200 w-screen h-screen flex items-center justify-center flex-col">
+            <header class="text-center">
+                <h1 class="text-6xl font-bold mb-2"
+                    style="font-family: 'Poppins', sans-serif; font-weight: 500; font-style: normal;" id="name">Irene</h1>
+                <h1 class="text-6xl font-bold mb-2"
+                    style="font-family: 'Poppins', sans-serif; font-weight: 500; font-style: normal;" id="second-name">Aquino</h1>
+                <p class="text-xl mb-4"
+                    style="font-family: 'Poppins', sans-serif; font-weight: 400; font-style: normal;">Computer Science
+                    Student
+                </p>
+            </header>
+            <div class="text-center">
+                <p class="text-base w-96 mx-auto animated-description">I am a novice in HTML, CSS, Java, and Bootstrap, currently developing
+                    foundational skills in web development and programming. Eager to learn and grow, I am seeking
+                    opportunities to expand my knowledge and gain practical experience in these technologies and other
+                    stuff.</p>
+            </div>
+
+            <a href="#projects" class="absolute bottom-4 right-4 text-3xl text-white hover:text-gray-300 animate-bounce"
+                id="arrowToProjects">
+                <i class="fas fa-arrow-down"></i>
+            </a>
+        </section>
+
+        <section id="projects" class="snap-center  w-screen min-h-screen flex flex-col"
+            style="background: linear-gradient(to right, #a1c4fd, #c2e9fb);">
+            <header class="text-center">
+                <h2 class="text-3xl font-bold mb-2"
+                    style="font-family: 'Poppins', sans-serif; font-weight: 500; font-style: normal;">Projects</h2>
+            </header>
+            <div class="text-center">
+                <p class="text-base w-96 mx-auto">Here are some projects I made during college to showcase my
+                    capabilites</p>
+            </div>
+
+            <div class="flex flex-col items-center justify-center flex-grow">
+                <article class="my-8 p-6 bg-white rounded-lg shadow-lg border border-gray-200">
+                    <header class="text-center">
+                        <h3 class="text-lg font-semibold">Tic Tac Toe</h3>
+                    </header>
+                    <img src="assets/tic_tac_toe.jpg" alt="Placeholder Image" class="my-4 rounded-md mx-auto">
+                    <div class="text-center">
+                        <p>Project description</p>
+                    </div>
+                </article>
+
+                <article class="my-8 p-6 bg-white rounded-lg shadow-lg border border-gray-200">
+                    <header class="text-center">
+                        <h3 class="text-lg font-semibold">Spice Pizza</h3>
+                    </header>
+                    <img src="assets/pizza.jpg" alt="Placeholder Image" class="my-4 rounded-md mx-auto">
+
+                    <dv class="text-center">
+                        <p>Project description</p>
+                    </dv>
+                </article>
+
+                <article class="my-8 p-6 bg-white rounded-lg shadow-lg border border-gray-200">
+                    <header class="text-center">
+                        <h3 class="text-lg font-semibold">Dental Clinic Website</h3>
+                    </header>
+                    <img src="assets/dental.jpg" alt="Placeholder Image" class="my-4 rounded-md mx-auto">
+
+                    <dv class="text-center">
+                        <p>Project description</p>
+                    </dv>
+                </article>
+            </div>
+
+            <a href="#footer" class="absolute bottom-4 right-4 text-3xl text-white hover:text-gray-300 animate-bounce"
+                id="arrowToFooter" style="display: none;">
+                <i class="fas fa-arrow-down"></i>
+            </a>
+        </section>
+
+        <footer id="footer" class="snap-center flex flex-col items-center"
+            style="background: linear-gradient(to right, #a1c4fd, #c2e9fb);">
+            <p>Contact Information:</p>
+            <p>Email: ireneibahan221994@gmail.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/irene-aquino-505163311"
+                    class="text-blue-500 hover:text-blue-700">Irene Aquino</a></p>
+        </footer>
+    </div>
+</body>
+
+</html>
